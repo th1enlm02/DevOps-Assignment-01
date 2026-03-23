@@ -1,0 +1,2 @@
+sudo certbot --nginx -d gameloft-frontend.th1enlm02.cloud --non-interactive --agree-tos -m minhthienluu2406@gmail.com
+aws s3 cp backend-nodejs.zip s3://gameloft-dev-lambda-source-code/backend-nodejs/backend-nodejs.zip --profile devops --region ap-southeast-1
